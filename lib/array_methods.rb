@@ -1,29 +1,23 @@
 def using_include(array, element)
-  famous_cats = ["Grafield", "Heathclif", "Moris the Cat"]
-  famous_cats.include?
+  array.include?
 end
 
 def using_sort(array)
-  cars = ["Toyota", "Ford", "Bentley"]
-  cars.sort
+  array.sort
 end
 
 def using_reverse(array)
-  colors = ["Red", "Yellow", "Black"]
-  colors.reverse
+ array.reverse
 end
 
 def using_first(array)
-  football_teams = ["Giants", "Eagles", "Lions"]
-  football_teams.first
+  array.first
 end
 
 def using_last(array)
-  holidays = ["Halloween", "Christmas", "Valentine"]
-  holidays.last
+  array.last
 end
 
 def using_size(array)
-  flowers ["Roses", "Daisies", "Tulips"]
-  flowers.size
+ array.size
 end
